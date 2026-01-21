@@ -51,6 +51,7 @@ _start:
     // After this instruction, X3 should equal 25
     //
     // YOUR CODE HERE:
+    MOV X3, #25
 
 
     // -------------------------------------------------------------------------
@@ -60,6 +61,8 @@ _start:
     // After this instruction, X4 should equal 40 (because 15 + 25 = 40)
     //
     // YOUR CODE HERE:
+
+    ADD X4, X2, X3
 
 
     // -------------------------------------------------------------------------
@@ -71,6 +74,7 @@ _start:
     //
     // YOUR CODE HERE:
 
+    SUB X5, X1, X0
 
     // -------------------------------------------------------------------------
     // EXERCISE 4: Create your own calculation
@@ -81,6 +85,7 @@ _start:
     //
     // YOUR CODE HERE:
 
+    MOV X6, #100
 
     // =========================================================================
     // PROGRAM TERMINATION
@@ -110,7 +115,8 @@ _start:
 // =============================================================================
 // When you're done, commit and push your changes:
 //
-//   git add .
+//   
+
 //   git commit -m "Completed Lab 00"
 //   git push
 //
